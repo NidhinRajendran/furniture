@@ -1,0 +1,235 @@
+*{
+    font-family: "Playfair Display", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --x : rgb(79, 7, 7);
+}
+
+#logo{
+    width: 100%;
+    height: 100px;
+}
+
+ul li{
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+li i{
+    color: rgb(197, 193, 193);
+}
+
+#button{
+    background-color: var(--x);
+    color: white;
+
+}
+
+#button:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+
+@media(max-width:992px)
+{
+    .nav-item i{
+        display: none;
+    }
+    
+}
+
+#main{
+    background-image: url("./Images/pexels-kamenczak-775219.jpg");
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;   
+}
+
+span{
+    color: yellow;
+}
+
+
+
+#dark{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.511);
+}
+
+#welcome{
+    padding-top: 22%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+#welcome h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+
+}
+
+#welcome h1{
+    color: white;
+    font-size: 100px;
+}
+#welcome button{
+ 
+    color: white;
+}
+
+#welcome button:hover{
+    background-color: white;
+    color: black;
+}
+
+@media(max-width: 600px)
+{
+    #main{
+
+        background-position: bottom;
+    }
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+
+#work{
+    margin-top: 10%;
+    background-image: url('./Images/pexels-eva-bronzini-7599590.jpg');
+    padding-top: 4%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div .viewbutton{
+    border-color: var(--x);
+}
+
+div .viewbutton:hover{
+    color: white;
+    background-color: var(--x);
+    
+}
+
+#about{
+    background-color: rgba(217, 215, 215, 0.505);
+    padding: 10% 0%;
+    display: flex;
+    text-align: justify;
+}
+
+#about2 h1{
+    margin-top: 5%;
+    color: var(--x);
+    
+}
+
+#hr{
+    height: 0.4rem;
+    width: 10rem;
+    background-color: var(--x);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#ibmg{
+    border: 7px solid var(--x);
+    width: 100%;
+    height: 400px;
+    padding-top: 4%;
+    padding-left: 4%;
+    
+}
+
+#gallery{
+    background-color: rgba(217, 215, 215, 0.505);
+}
+
+.projectgallerydiv2{
+    background-color: rgba(0, 0, 0, 0.656);
+    color: white;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.projectgallerydiv1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.projectgallerydiv1 img{
+    position: absolute;
+    height: 100%;
+}
+
+
+.projectgallerydiv3{
+    width: 50%;
+    height: 18%;
+    background-color: rgba(0, 0, 0, 0.656);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+#carousel{
+    background-color: rgba(217, 215, 215, 0.505);
+
+}
+
+.carousel-item h5,.carousel-item p{
+    color: white;
+}
+
+#testimonials{
+    background-color: rgba(217, 215, 215, 0.505);
+    width: 100%;
+    height: 100vh;
+
+}
+
+#footeri:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
